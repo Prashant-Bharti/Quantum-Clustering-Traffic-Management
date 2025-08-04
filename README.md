@@ -1,5 +1,6 @@
-# Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent Transportation
+
 ```markdown
+# Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent Transportation
 # 🧠 Quantum vs Classical Clustering for Traffic Signal Control
 
 This project compares classical and quantum clustering-based methods for adaptive traffic signal control. We simulate a 4-way intersection using `pygame`, analyzing vehicle wait times and throughput, while dynamically adapting green light durations.
