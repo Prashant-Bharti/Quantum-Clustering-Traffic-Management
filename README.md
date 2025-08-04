@@ -4,6 +4,10 @@
 
 This project compares classical and quantum clustering-based methods for adaptive traffic signal control. We simulate a 4-way intersection using `pygame`, analyzing vehicle wait times and throughput, while dynamically adapting green light durations.
 
+<img width="1569" height="878" alt="image" src="https://github.com/user-attachments/assets/0c1aa296-423f-4b82-8b64-e399dd0859f5" />
+
+<img width="1569" height="878" alt="image" src="https://github.com/user-attachments/assets/b87bd041-31e5-484a-a215-f7a45e2f0848" />
+
 ---
 
 ## 📂 Repository Structure
@@ -124,9 +128,9 @@ The quantum clustering implementation uses:
 
 ##  TODO
 
-- [ ] Replace simulated quantum similarity with actual Qiskit swap test circuit
-- [ ] Integrate QML models for signal prediction
-- [ ] Add benchmark graphs comparing classical vs quantum performance
+-  Replace simulated quantum similarity with actual Qiskit swap test circuit
+-  Integrate QML models for signal prediction
+-  Add benchmark graphs comparing classical vs quantum performance
 
 ---
 
