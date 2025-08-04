@@ -1,5 +1,4 @@
 
-```markdown
 # Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent Transportation
 # 🧠 Quantum vs Classical Clustering for Traffic Signal Control
 
