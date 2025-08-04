@@ -1,6 +1,6 @@
 
 # Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent Transportation
-# 🧠 Quantum vs Classical Clustering for Traffic Signal Control
+#  Quantum vs Classical Clustering for Traffic Signal Control
 
 This project compares classical and quantum clustering-based methods for adaptive traffic signal control. We simulate a 4-way intersection using `pygame`, analyzing vehicle wait times and throughput, while dynamically adapting green light durations.
 
@@ -32,7 +32,7 @@ This project compares classical and quantum clustering-based methods for adaptiv
 
 ---
 
-## 🚦 Project Overview
+##  Project Overview
 
 We simulate real-time traffic control using:
 
@@ -43,7 +43,7 @@ These algorithms adjust traffic light durations based on real-time vehicle densi
 
 ---
 
-## 📜 Code Descriptions
+##  Code Descriptions
 
 | File Name | Description |
 |----------|-------------|
@@ -54,7 +54,7 @@ These algorithms adjust traffic light durations based on real-time vehicle densi
 
 ---
 
-## 🧪 Features
+##  Features
 
 - Live vehicle generation
 - Dynamic signal adjustment based on real-time clustering
@@ -64,7 +64,7 @@ These algorithms adjust traffic light durations based on real-time vehicle densi
 
 ---
 
-## 🧑‍💻 How to Run
+##  How to Run
 
 > Make sure all dependencies are installed and the images are correctly placed.
 
@@ -101,7 +101,7 @@ python quantum_clustering_results.py
 
 ---
 
-## 📊 Sample Output Metrics
+##  Sample Output Metrics
 
 - **Throughput**: Number of vehicles that crossed the signal
 - **Average Wait Time**: Per vehicle in seconds
@@ -110,7 +110,7 @@ python quantum_clustering_results.py
 
 ---
 
-## ⚛️ Quantum Details
+##  Quantum Details
 
 The quantum clustering implementation uses:
 
@@ -122,7 +122,7 @@ The quantum clustering implementation uses:
 
 ---
 
-## 📌 TODO
+##  TODO
 
 - [ ] Replace simulated quantum similarity with actual Qiskit swap test circuit
 - [ ] Integrate QML models for signal prediction
@@ -130,7 +130,7 @@ The quantum clustering implementation uses:
 
 ---
 
-## 📷 Image Assets
+##  Image Assets
 
 All images used for vehicles and intersection simulation are in the `images/` folder, with the following subfolders:
 
@@ -142,13 +142,13 @@ Ensure correct file names and dimensions for smooth simulation.
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and intended for educational and research purposes.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 ```
