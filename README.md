@@ -1,33 +1,34 @@
-# Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent
-Transportation
-# Quantum vs Classical Clustering for Traffic Signal Control
+# Quantum Swap Modelling for Adaptive Traffic Signalling in Intelligent Transportation
+```markdown
+# 🧠 Quantum vs Classical Clustering for Traffic Signal Control
 
 This project compares classical and quantum clustering-based methods for adaptive traffic signal control. We simulate a 4-way intersection using `pygame`, analyzing vehicle wait times and throughput, while dynamically adapting green light durations.
 
 ---
 
 ## 📂 Repository Structure
+
+```
 📁 project-root/
 ├── 📁 images/
-│ ├── 📁 down/
-│ │ ├── car.png
-│ │ ├── bus.png
-│ │ ├── ...
-│ ├── 📁 left/
-│ ├── 📁 right/
-│ ├── 📁 up/
-│ ├── 📁 signals/
-│ │ ├── red.png
-│ │ ├── green.png
-│ │ ├── yellow.png
-│ └── intersection.png
+│   ├── 📁 down/
+│   │   ├── car.png
+│   │   ├── bus.png
+│   │   ├── ...
+│   ├── 📁 left/
+│   ├── 📁 right/
+│   ├── 📁 up/
+│   ├── 📁 signals/
+│   │   ├── red.png
+│   │   ├── green.png
+│   │   ├── yellow.png
+│   └── intersection.png
 ├── normal_clustering_submit.py
 ├── quantum_clustering_submit.py
 ├── normal_clustering_results.py
 ├── quantum_clustering_results.py
 └── README.md
-
-
+```
 
 ---
 
@@ -71,26 +72,83 @@ These algorithms adjust traffic light durations based on real-time vehicle densi
 
 ```bash
 pip install pygame scikit-learn matplotlib
+```
 
+For quantum clustering:
+
+```bash
+pip install qiskit
+```
 
 ### 2. Run Classical Clustering Simulation
+
 ```bash
 python normal_clustering_submit.py
+```
+
 ### 3. Run Quantum Clustering Simulation
-```bash
 
+```bash
 python quantum_clustering_submit.py
-### 4. Visualize Results
-```bash
+```
 
+### 4. Visualize Results
+
+```bash
 python normal_clustering_results.py
 python quantum_clustering_results.py
+```
 
-## Sample Output Metrics
-Throughput: Number of vehicles that crossed the signal
+---
 
-Average Wait Time: Per vehicle in seconds
+## 📊 Sample Output Metrics
 
-Output appears every 10 seconds in the terminal
+- **Throughput**: Number of vehicles that crossed the signal
+- **Average Wait Time**: Per vehicle in seconds
+- Output appears every 10 seconds in the terminal
+- Visualization graphs in results scripts
 
-Visualization graphs in results scripts
+---
+
+## ⚛️ Quantum Details
+
+The quantum clustering implementation uses:
+
+- **Cosine similarity** between vehicle positions
+- **Swap test (optional in backend)** to compute overlaps
+- **KMeans-like clustering** based on quantum metrics
+
+> This is a hybrid approach to test the viability of quantum representations in dynamic systems.
+
+---
+
+## 📌 TODO
+
+- [ ] Replace simulated quantum similarity with actual Qiskit swap test circuit
+- [ ] Integrate QML models for signal prediction
+- [ ] Add benchmark graphs comparing classical vs quantum performance
+
+---
+
+## 📷 Image Assets
+
+All images used for vehicles and intersection simulation are in the `images/` folder, with the following subfolders:
+
+- `right/`, `left/`, `up/`, `down/` – directional vehicle sprites
+- `signals/` – red, green, yellow light icons
+- `intersection.png` – main background image
+
+Ensure correct file names and dimensions for smooth simulation.
+
+---
+
+## 📄 License
+
+This project is open-source and intended for educational and research purposes.
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+```
