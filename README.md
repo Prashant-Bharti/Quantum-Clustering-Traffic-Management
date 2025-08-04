@@ -6,7 +6,8 @@ This project compares classical and quantum clustering-based methods for adaptiv
 
 <img width="1569" height="878" alt="image" src="https://github.com/user-attachments/assets/0c1aa296-423f-4b82-8b64-e399dd0859f5" />
 
-<img width="1569" height="878" alt="image" src="https://github.com/user-attachments/assets/b87bd041-31e5-484a-a215-f7a45e2f0848" />
+<img width="1275" height="469" alt="Screenshot 2025-07-31 122722" src="https://github.com/user-attachments/assets/6565948c-0374-49d9-89c9-72a9311676e0" />
+
 
 ---
 
